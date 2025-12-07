@@ -157,7 +157,7 @@ Jalankan server:
 | 1 | GET /api/countries | Menampilkan semua negara | `http://localhost:3000/api/countries` | ![Semua negara](./src/foto/1.Semuanegara.png) |
 | 2 | GET /api/countries/region/:region | Menampilkan negara berdasarkan region | `http://localhost:3000/api/countries/region/asia` | ![Region Asia](./src/foto/2.RegionAsia.png) |
 | 3 | GET /api/countries/name/:name | Menampilkan detail negara berdasarkan nama | `http://localhost:3000/api/countries/name/indonesia` | ![Negara Indonesia](./src/foto/3.NegaraIndonesia.png) |
-| 4 | GET /api/weather?city=Palangkaraya | Menampilkan cuaca kota (opsional) | `http://localhost:3000/api/weather?city=Palangkaraya` | ![Cuaca kota](./src/foto/4. Cuaca kota (opsional).png) |
+| 4 | GET /api/weather?city=Palangkaraya | Menampilkan cuaca kota (opsional) | `http://localhost:3000/api/weather?city=Palangkaraya` | ![Cuaca kota](./src/foto/4.Cuacakota(opsional).png) |
 | 5 | GET /docs | Dokumentasi API Swagger UI | `http://localhost:3000/docs` | ![Swagger UI](./src/foto/5.SwaggerUI.png) |
 
 ---
