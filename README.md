@@ -43,7 +43,7 @@ Fitur yang diimplementasikan:
 
 ## 🗂 Struktur Project
 
-``` bash 
+```
 
 --- 
 
@@ -89,18 +89,18 @@ P9-API-INTEGRATION-230104040203/
 └── server.js
 
 ---
-
+```
 
 ---
 
 ## ⚙️ Instalasi
 
 ### 1. Install dependency
-npm install
+```npm install```
 
 
 ### 2. Buat file `.env`
-OWM_API_KEY=YOUR_OPENWEATHERMAP_API_KEY
+```OWM_API_KEY=YOUR_OPENWEATHERMAP_API_KEY```
 
 
 Dapatkan API key dari: https://openweathermap.org/api
@@ -108,17 +108,17 @@ Dapatkan API key dari: https://openweathermap.org/api
 ---
 
 ## ▶️ Menjalankan Server
-npm start
+```npm start```
 
 
 Server berjalan di:
-http://localhost:3000/
+```http://localhost:3000/```
 
 
 ---
 
 ## 🔗 Endpoint API
-
+```
 ### 🌎 Countries API
 | Endpoint | Deskripsi |
 |----------|-----------|
@@ -128,20 +128,24 @@ http://localhost:3000/
 
 ---
 
+```
+
+---
+```
 ### 🌤 Weather API
 | Endpoint | Deskripsi |
 |----------|-----------|
 | `/api/weather?city=Palangkaraya` | Cuaca berdasarkan nama kota |
-
+```
 ---
 
 ### 📘 Swagger Documentation
-http://localhost:3000/docs
+```http://localhost:3000/docs```
 
 ## 🧪 Uji Coba Endpoint
 
 Jalankan server:
-npm start
+```npm start```
 
 
 ---
@@ -160,6 +164,7 @@ npm start
 
 ## 📜 Kesimpulan Uji Coba
 
+```
 Semua endpoint:
 
 ✔ Berjalan dengan **status 200**  
@@ -168,11 +173,14 @@ Semua endpoint:
 ✔ Ditampilkan dengan benar di Postman  
 ✔ Terdokumentasi melalui Swagger UI  
 
+```
 ---
 
 
----
 
+
+---
+```
 ## 🧪 Checklist Pengujian
 - [x] Struktur modular berjalan  
 - [x] Morgan logging aktif  
@@ -180,7 +188,7 @@ Semua endpoint:
 - [x] Error handler tampil rapi  
 - [x] Swagger UI berjalan  
 - [x] Semua endpoint mengembalikan status 200  
-
+```
 ---
 
 ## ❗ Troubleshooting
@@ -190,17 +198,17 @@ Semua endpoint:
 Artinya ada aplikasi lain memakai port 3000.
 
 #### 1️⃣ Cek PID pengguna port 3000:
-netstat -ano | findstr :3000
+```netstat -ano | findstr :3000```
 
 
 #### 2️⃣ Hentikan prosesnya:
-taskkill /PID <PID> /F
+```taskkill /PID <PID> /F```
 
 Contoh:
-taskkill /PID 3258 /F
+```taskkill /PID 3258 /F```
 
 #### 3️⃣ Jalankan ulang server:
-npm start
+```npm start```
 
 
 ---
